@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareMate AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+<div class="header">
+  <span class="menu-icon" onclick="toggleSidebar()">☰</span>
+  
+  CareMate AI
+
+  <!-- 🆕 Dashboard Button -->
+  <span class="dashboard" onclick="openDashboard()">
+    <ion-icon name="grid-outline"></ion-icon>
+  </span>
+
+  <!-- Settings -->
+  <span class="settings" onclick="toggleSettings()">
+    <ion-icon name="settings-outline"></ion-icon>
+  </span>
+</div>
+
+  <div class="sidebar">
+  <div class="sidebar-header">
+    <button onclick="newChat()">+ New Chat</button>
+    <input type="text" id="search" placeholder="Search..." oninput="searchChats()">
+    <button onclick="showInsights()"><span style="padding: 5px;"><ion-icon name="bar-chart-outline"></ion-icon></span> View Insights</button>
+
+<div id="insightPanel" style="display:none; margin-top:10px;">
+  <canvas id="stressChart" height="150"></canvas>
+</div>
+  </div>
+
+  
+  <div id="chatList" class="chat-list"></div>
+</div>
+<div id="overlay" class="overlay" onclick="toggleSidebar()"></div>
+
+  <!-- Settings Panel -->
+<div id="settingsPanel" class="settings-panel">
+  <label>Select Language:</label>
+  <select id="languageSelect" onchange="changeLanguage()">
+    <option value="en">English</option>
+    <option value="hi">Hindi</option>
+    <option value="kn">Kannada</option>
+    <option value="ta">Tamil</option>
+  </select>
+</div>
+
+  <div class="messages" id="messages"></div>
+  <!-- <div class="chat-container">
+    <canvas id="stressChart" height="100"></canvas>
+  </div> -->
+  <div class="input-area">
+  <input type="text" id="input" placeholder="How was your day?">
+
+  <button onclick="startVoice()">
+    <ion-icon name="mic-outline"></ion-icon>
+  </button>
+
+  <!-- 🎯 NEW OUTPUT MODE SELECTOR -->
+  <select id="outputMode" class="mode-select">
+    <option value="text">Text</option>
+    <option value="audio">Audio</option>
+    <option value="both" selected>Both</option>
+  </select>
+
+  <button onclick="sendMessage()">Send</button>
+</div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

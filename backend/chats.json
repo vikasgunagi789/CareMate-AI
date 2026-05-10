@@ -1,0 +1,168 @@
+[
+  [
+    {
+      "text": "I am feeling tired and I am feeling hungry.",
+      "sender": "user",
+      "stress": 30
+    },
+    {
+      "text": "Feeling a bit worn out, huh? Why don't you take a short break and grab a snack? Sometimes a little pick-me-up can make a big difference.",
+      "sender": "bot",
+      "stress": 30
+    },
+    {
+      "text": "I have more work",
+      "sender": "user",
+      "stress": 0
+    },
+    {
+      "text": "Let's break it down together. Why don't we take a short pause and make a list of priorities? That might help you feel more focused.",
+      "sender": "bot",
+      "stress": 0
+    }
+  ],
+  [
+    {
+      "text": "Why I am feeling tired",
+      "sender": "user",
+      "stress": 30
+    },
+    {
+      "text": "It's understandable that you're feeling fatigued. Have you taken a break to rest lately?",
+      "sender": "bot",
+      "stress": 30
+    }
+  ],
+  [
+    {
+      "text": "My favourite anime is going to end",
+      "sender": "user",
+      "stress": 0
+    },
+    {
+      "text": "That's a bittersweet feeling, isn't it? It's okay to feel a little sad when something we love is coming to an end. Would you like to take a deep breath and relax for a bit, or maybe look up some other shows to take your mind off it?",
+      "sender": "bot",
+      "stress": 0
+    }
+  ],
+  [
+    {
+      "text": "I am tired",
+      "sender": "user",
+      "stress": 30
+    },
+    {
+      "text": "It sounds like you're running low on energy. Why don't we take a break and get you something to eat or drink first?",
+      "sender": "bot",
+      "stress": 30
+    },
+    {
+      "text": "Naanu araamagi idhene",
+      "sender": "user",
+      "stress": 0
+    },
+    {
+      "text": "ಒಂದು ವೇಳೆ ನೀವೊಂದು ವೇಳೆ ತಪ್ಪು ಮಾಡಿದರೆ ಏನು ಮಾಡಬೇಕು? ಬೇಸ್‌ತಂತಿ ಚಹರೆ ಬಿದಿ, ತೂಬಾ ಬಿದಿ ಬಿದಿ ಬಿದಿ ಬಿದಿ ಬಿದಿ ಬಿದಿ ಬಿದಿ ಬಿದಿ ಬೇಳಿ.",
+      "sender": "bot",
+      "stress": 0
+    },
+    {
+      "text": "I am feeling good",
+      "sender": "user",
+      "stress": 0
+    },
+    {
+      "text": "ಅದು ಕೇಳಲು ಅದ್ಭುತವಾಗಿದೆ. ಇಲ್ಲಿಯವರೆಗೆ ನಿಮ್ಮ ಬೆಳಗ್ಗೆ ಹೇಗಿತ್ತು?",
+      "sender": "bot",
+      "stress": 0
+    }
+  ],
+  [
+    {
+      "text": "I am feeling tired and I am feeling hungry.",
+      "sender": "user",
+      "stress": 30
+    },
+    {
+      "text": "Feeling a bit worn out, huh? Why don't you take a short break and grab a snack? Sometimes a little pick-me-up can make a big difference.",
+      "sender": "bot",
+      "stress": 30
+    },
+    {
+      "text": "I have more work",
+      "sender": "user",
+      "stress": 0
+    },
+    {
+      "text": "Let's break it down together. Why don't we take a short pause and make a list of priorities? That might help you feel more focused.",
+      "sender": "bot",
+      "stress": 0
+    }
+  ],
+  [
+    {
+      "text": "I am feeling tired and I am feeling hungry.",
+      "sender": "user",
+      "stress": 30
+    },
+    {
+      "text": "Feeling a bit worn out, huh? Why don't you take a short break and grab a snack? Sometimes a little pick-me-up can make a big difference.",
+      "sender": "bot",
+      "stress": 30
+    },
+    {
+      "text": "I have more work",
+      "sender": "user",
+      "stress": 0
+    },
+    {
+      "text": "Let's break it down together. Why don't we take a short pause and make a list of priorities? That might help you feel more focused.",
+      "sender": "bot",
+      "stress": 0
+    }
+  ],
+  [
+    {
+      "text": "I am very much tired.",
+      "sender": "user",
+      "stress": 50
+    },
+    {
+      "text": "It's completely normal to feel tired, especially after a long day. Would you like a warm cup of tea or something else to help you relax?\n\nHope you're getting small moments to breathe in between 💙",
+      "sender": "bot",
+      "stress": 50
+    }
+  ],
+  [
+    {
+      "text": "I am tired",
+      "sender": "user",
+      "stress": 30
+    },
+    {
+      "text": "It's normal to feel that way. Why don't we take a few deep breaths together and see if we can find a way to energize you?",
+      "sender": "bot",
+      "stress": 30
+    },
+    {
+      "text": "i am hungry",
+      "sender": "user",
+      "stress": 0
+    },
+    {
+      "text": "ನಾವು ನಿಮಗೆ ತಿನ್ನಲು ಏನನ್ನಾದರೂ ತರುತ್ತೇವೆ. ಇಂದು ನಿಮಗೆ ಯಾವ ರೀತಿಯ ಆಹಾರ ಬೇಕು ಎಂದು ಅನಿಸುತ್ತದೆ?",
+      "sender": "bot",
+      "stress": 0
+    },
+    {
+      "text": "i am anxious",
+      "sender": "user",
+      "stress": 0
+    },
+    {
+      "text": "That sounds really tough. Would you like to talk about what's on your mind, or is there something I can do to help you relax instead?",
+      "sender": "bot",
+      "stress": 0
+    }
+  ]
+]
